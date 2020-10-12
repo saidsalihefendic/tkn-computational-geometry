@@ -1,3 +1,5 @@
+# TKN Computational Geometry course
+
 This repository contains all the codes, explanations and projects by me regarding the Computational Geometry course at the Theoretical Computer Science graduate studies.
 
 It will consists of all the topics covered during the course using the Mark De Berg book _Computational Geometry_ and it will be organized in folders, for example the SimplePolygon:
