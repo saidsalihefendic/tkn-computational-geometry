@@ -96,7 +96,7 @@ class DirectedEdge():
     def is_collinear(self, directed_edge):
         """Tests whether the directed edge is collinear with another directed edge"""
 
-        return self.orientation(directed_edge.begin) == 0 and self.orientation(directed_edge.end)
+        return self.orientation(directed_edge.begin) == 0 and self.orientation(directed_edge.end) == 0
 
     def is_intersecting(self, directed_edge):
         """Tests whether the directed edge intersects with another edge"""
