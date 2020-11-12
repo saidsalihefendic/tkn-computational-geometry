@@ -111,11 +111,11 @@ class DirectedEdge():
 
         return begin_orientation != end_orientation and directed_begin_orientation != directed_end_orientation
     
-    def __eq__(self, end):
-        return self.begin == self.end
+    def __eq__(self, directed_edge):
+        return self.begin == directed_edge.begin and self.end == directed_edge.end
     
-    def __neq__(self, end):
-        return self.begin != self.end
+    def __neq__(self, directed_edge):
+        return not self == directed_edge
 
     def __repr__(self):
         return "DirectedEdge({}, {})".format(str(self.begin), (self.end))
